@@ -12,7 +12,7 @@ console.log(result);
 let result1 = num1 * num2;
 console.log(result1);
 
-//division operator
+//Division operator
 let result2 = num1 / num2;
 console.log(result2);
 

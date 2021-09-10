@@ -1,7 +1,10 @@
-// let nam1 = 10;
-// var nam2;
+//This file shows basic declaration and initialization of variables
 
-// //declared constant variable (single line comment)
+//declaration of variables
+let name;
+var result;
+
+//the following variables have been decalared and initiated at once.
 const grace = "raymond"
 let num = "200";
 let count = false;
