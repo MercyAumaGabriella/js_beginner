@@ -65,3 +65,18 @@ let answer3 = num6;
 
 console.log(result8);
 console.log(num6);
+
+//More about increments when we want to add, subtract, multiple, divide and find the modulo of a number with a value more tham 1.
+let num7 = 34, num8 = 56,num9 = 78, num10 = 88, num11 = 11;
+let result9 = num7 +=2;
+let result10 = num8 -=3;
+let result11 = num9 *=4;
+let result12 = num10 /=2;
+let result13 = num11 %= 2;
+
+//the results of our arithmetics.
+console.log(result9);
+console.log(result10);
+console.log(result11);
+console.log(result12);
+console.log(result13);
