@@ -145,3 +145,14 @@ console.log( value1 <36 || value2 > 36);   //returns false
 //this opertor denotes the opposite of the expression
 console.log("NOT OPERATOR");
 console.log( !(value1 == value2)); //this returns TRUE because it has reversed the answer which is False (it's supposed to be false because it has 37 != 35)
+
+//4. CONDITIONAL OPERATORS
+// This is used to assign a variable to a variable based on a condition.
+
+let value3 = 5, value4 = 90;
+
+let ans = (value3 < value4) ? value3 : value4;
+console.log("Conditional Operator");  //ans = 5 caz value3 is less than value4
+console.log(ans);
+
+/************************THIS IS THE END OF OPERATOR KNOWLEDGE AS OF SEPTEMBER 2021*************************** */
