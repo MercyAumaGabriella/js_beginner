@@ -68,15 +68,63 @@ console.log(num6);
 
 //More about increments when we want to add, subtract, multiple, divide and find the modulo of a number with a value more tham 1.
 let num7 = 34, num8 = 56,num9 = 78, num10 = 88, num11 = 11;
-let result9 = num7 +=2;
+let result9 = num7 +=2; 
+
 let result10 = num8 -=3;
+
 let result11 = num9 *=4;
+
 let result12 = num10 /=2;
+
 let result13 = num11 %= 2;
 
+
 //the results of our arithmetics.
+console.log("Today's work");
 console.log(result9);
 console.log(result10);
 console.log(result11);
 console.log(result12);
 console.log(result13);
+
+//2. COMPARISON OPERATORS
+// for these, we shall use the the variables sample.
+
+console.log("Comparison operators");
+//i. strict comparison operator (===)
+let sample1 = 12;
+let sample2 = "12";
+
+console.log(sample1 === sample2); 
+
+//ii. not equal to operator (!=)
+let sample3 = 26;
+let sample4 = 25;
+
+console.log(sample3 != sample4); 
+
+//iii. equal to operator (==)
+let sample5 = 190;
+let sample6 = 75;
+
+console.log(sample5 >= sample6); 
+console.log(sample5 >! sample6); 
+
+// Other operators include less than (<), not equal to type (!==)
+
+//3. LOGICAL OPERATORS
+// These operators are used to determine logic between values and variables. For this we shall use the variables value and ans.
+
+console.log("Logical Operators");
+
+// i. Ampersand Operators
+// this operator returns true if both expressions are true, otherwise it is false.
+
+let value1 = 37;
+let value2 = 35;
+
+console.log( value1 > 36 && value2 < 36); //instance where both statements (value1 and vallue2) are TRUE.
+console.log( value1 < 36 && value2 < 36); //instance where one statement (value1) is false while the other statement (value2) is TRUE.
+console.log( value1 < 36 && value2 > 36); //instance where both statements (value1 and value2) are FALSE.
+
+//.
