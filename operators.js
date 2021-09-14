@@ -117,14 +117,31 @@ console.log(sample5 >! sample6);
 
 console.log("Logical Operators");
 
-// i. Ampersand Operators
+// i. Ampersand Operators (&&)
 // this operator returns true if both expressions are true, otherwise it is false.
 
 let value1 = 37;
 let value2 = 35;
 
-console.log( value1 > 36 && value2 < 36); //instance where both statements (value1 and vallue2) are TRUE.
-console.log( value1 < 36 && value2 < 36); //instance where one statement (value1) is false while the other statement (value2) is TRUE.
-console.log( value1 < 36 && value2 > 36); //instance where both statements (value1 and value2) are FALSE.
+console.log("AND OPERTOR");
+//instance where both statements (value1 and vallue2) are TRUE.
+console.log( value1 > 36 && value2 < 36); 
 
-//.
+//instance where one statement (value1) is false while the other statement (value2) is TRUE.
+console.log( value1 < 36 && value2 < 36); 
+
+//instance where both statements (value1 and value2) are FALSE.
+console.log( value1 < 36 && value2 > 36); 
+
+//ii. Or (||) operator
+// this operator returns true if one of the expressions is true. It only shows false when both expressions are false
+
+//instance where one expression is false, It returns TRUE.
+console.log("OR OPERATOR");
+console.log( value1 > 36 || value2 < 36);  //returns true
+console.log( value1 <36 || value2 > 36);   //returns false
+
+//iii. NOT (!) operator
+//this opertor denotes the opposite of the expression
+console.log("NOT OPERATOR");
+console.log( !(value1 == value2)); //this returns TRUE because it has reversed the answer which is False (it's supposed to be false because it has 37 != 35)

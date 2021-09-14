@@ -5,16 +5,22 @@ var answer; //global variable
 
 //2. Functions
 function add () {
-   var answer = num1 + num2;
-   console.log(answer);
+   let num11 = 10, num22 = 20;
+   var answer = num11 + num22;
+   return answer;
 }
-
-function sub (){
-    
-}
+//console.log(add());
 
 // add();
-// sub();
+
+//function with parameters
+function sub(a, b){
+   let ans = a - b;
+   return ans;
+}
+
+console.log(sub(2,5));
+console.log(sub(35, 8));
 
 function myFunction () {
    let counter = 10;
@@ -23,4 +29,5 @@ function myFunction () {
    }
 }
 
-myFunction();
+// myFunction();
+
