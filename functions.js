@@ -39,6 +39,7 @@ divide();
 
 // customising functions
 console.log("Customising Functions");
+//Function for even numbers
 function even(x, y) {
    for (let item = x; item <= y; item++){
       if(item%2 == 0){
@@ -53,3 +54,15 @@ function even2(){
    }
 }
 even2();
+
+//Function for odd numbers.
+console.log("Functions for Odd numbers");
+function odd(a,b){
+   for (item = a; item < b; item++){
+      if(item %2 == 1){
+         console.log(item);
+      }
+   }
+}// we can also use (item%2 != 0)
+
+odd(6,19);
