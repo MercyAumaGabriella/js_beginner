@@ -7,7 +7,7 @@
       - const
 
 2. operator.js
-   This file conatains the basic knowledge about operators.
+   This file contains the basic knowledge about operators.
 
    - ARITHMETIC OPERATORS
    This is used to apply mathematical instructions to values.
