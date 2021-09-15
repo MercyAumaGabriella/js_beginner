@@ -1,24 +1,22 @@
-let num1 = 23, num2 =67;
-//1. Conditional statements
-let num3 = num1 > num2 ? num1 : num2;
+// FUNCTIONS
 var answer; //global variable
 
-//2. Functions
+//1. Static Functions
 function add () {
    let num11 = 10, num22 = 20;
    var answer = num11 + num22;
    return answer;
 }
-//console.log(add());
+console.log("Static Functions");
+console.log(add());
 
-// add();
-
+//2. Dynamic Functions (Parametarised Functions)
 //function with parameters
 function sub(a, b){
    let ans = a - b;
    return ans;
 }
-
+console.log("Parametarised Functions");
 console.log(sub(2,5));
 console.log(sub(35, 8));
 
@@ -28,6 +26,30 @@ function myFunction () {
       console.log("item", item);
    }
 }
+console.log("Function with loop inside");
+myFunction();
 
-// myFunction();
+//3. Functions calling other functions
+function divide() {
+   var result = sub(15,5) / 2;
+   console.log(result);
+}
+console.log("Functions calling other functions")
+divide();
 
+// customising functions
+console.log("Customising Functions");
+function even(x, y) {
+   for (let item = x; item <= y; item++){
+      if(item%2 == 0){
+         console.log(item);
+      }
+   }
+}
+
+function even2(){
+   for (let item = 0; item <= 23; item+=2){
+      console.log(item)
+   }
+}
+even2();
