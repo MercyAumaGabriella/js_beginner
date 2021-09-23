@@ -4,7 +4,7 @@ console.log(my_array[0]);
 
 //using a loop to look through our array
 for( let i=0; i<=4; i++){
-    //console.log(my_array[i]);
+    console.log(my_array[i]);
 }
 
 //Odd numbers
